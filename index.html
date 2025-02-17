@@ -3,84 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Лучшие доставки</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f9f9f9;
-            color: #333;
-        }
-        header {
-            background-color: #e8f0fe;
-            color: #333;
-            padding: 20px 15px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
-        header h1 {
-            margin: 0;
-            font-size: 2.5em;
-        }
-        header nav {
-            margin-top: 10px;
-        }
-        header nav a {
-            color: #0078d7;
-            text-decoration: none;
-            margin: 0 10px;
-            font-weight: bold;
-        }
-        header nav a:hover {
-            text-decoration: underline;
-        }
-        main {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: #ffffff;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            border-radius: 5px;
-        }
-        main h2 {
-            font-size: 1.8em;
-            margin-top: 0;
-        }
-        main p {
-            line-height: 1.6;
-        }
-        footer {
-            text-align: center;
-            padding: 15px 10px;
-            background-color: #e8f0fe;
-            margin-top: 20px;
-        }
-        footer p {
-            margin: 0;
-        }
-    </style>
+    <meta name="description" content="Тема вашего сайта. Здесь можно вставить описание вашего контента.">
+    <meta name="keywords" content="ключевые слова, связанные с вашим контентом, например, статьи, новости, советы">
+    <meta name="author" content="Ваше имя или название компании">
+    <title>ТОП-сервисов накрутки</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
     <header>
-        <nav>
-            <a href="/">Главная</a>
-            <a href=/contact.html>Контакты</a>
-        </nav>
+        <div class="container header-container">
+            <div class="logo">
+                <img src="logo.png" alt="Логотип" class="logo-img">
+            </div>
+            <div class="site-title">
+                <h1>ТОП-сервисов накрутки</h1>
+            </div>
+        </div>
     </header>
+
+    <!-- Верхнее меню -->
+    <nav class="top-nav">
+        <div class="container">
+            <ul>
+                <li><a href="/">Главная</a></li>
+                <li><a href="/about">О нас</a></li>
+                <li><a href="/services">Услуги</a></li>
+                <li><a href="/blog">Блог</a></li>
+                <li><a href="/contact">Контакты</a></li>
+            </ul>
+        </div>
+    </nav>
+
     <main>
-<h2>Лучшие ...</h2>
+        <div class="container">
+            <section class="article">
+                <h1>Заголовок статьи</h1>
+                <p><strong>Введение:</strong> Это начало статьи. Здесь ты можешь кратко описать, о чем пойдет речь.</p>
 
-<p>1 абзац</p>
+                <h2>Основной раздел</h2>
+                <p>Здесь идет основной текст статьи. Ты можешь использовать абзацы, списки, выделение текста и другие элементы HTML.</p>
+                
+                <h3>Подраздел 1</h3>
+                <ul>
+                    <li>Пункт 1</li>
+                    <li>Пункт 2</li>
+                    <li>Пункт 3</li>
+                </ul>
 
+                <h3>Подраздел 2</h3>
+                <p><strong>Совет:</strong> Для удобства можно использовать выделение <strong>жирным текстом</strong>, чтобы акцентировать внимание на важных моментах.</p>
 
-<h2>1. оффер</h2>
-
-
-<h2>2. оффер</h2>
-
+                <h2>Заключение</h2>
+                <p>Здесь подводится итог статьи. Укажи, что важно запомнить или что нужно сделать.</p>
+            </section>
+        </div>
     </main>
+
     <footer>
-        <p>&copy; 2024 Мой блог. Все права защищены.</p>
+        <div class="container">
+            <p>&copy; 2025 Ваше имя или название сайта. Все права защищены.</p>
+        </div>
     </footer>
 </body>
 </html>
